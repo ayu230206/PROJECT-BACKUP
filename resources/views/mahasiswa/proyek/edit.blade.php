@@ -55,10 +55,12 @@
             </div>
 
             {{-- Pembimbing --}}
-            <div class="mb-4">
-                <label class="font-semibold">Pembimbing</label>
-                <input type="text" name="pembimbing" value="{{ old('pembimbing', $proj->pembimbing) }}" class="w-full rounded-lg border border-green-400 focus:ring-green-600 p-2 mt-1">
-            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="mb-4">
+                        <label class="font-semibold">Pembimbing</label>
+                        <input type="text" name="pembimbing" value="{{ old('pembimbing', $proj->pembimbing) }}" class="w-full rounded-lg border border-green-400 focus:ring-green-600 p-2 mt-1">
+                    </div>
+                </div>
 
             {{-- Status Proyek --}}
             <div class="mb-4">
