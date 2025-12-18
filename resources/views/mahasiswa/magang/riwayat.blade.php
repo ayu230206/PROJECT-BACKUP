@@ -15,7 +15,7 @@
             <table class="w-full text-sm text-center rounded-2xl shadow-lg">
                 <thead>
                     <tr class="bg-gradient-to-r from-green-700 to-green-600 text-white">
-                        <th class="p-4">#</th>
+                        <th class="p-4">No</th>
                         <th class="p-4">Tempat</th>
                         <th class="p-4">Posisi</th>
                         <th class="p-4">Status</th>
