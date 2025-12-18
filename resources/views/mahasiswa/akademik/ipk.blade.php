@@ -67,7 +67,7 @@
         <div class="mt-8 text-center">
             <a href="{{ route('mahasiswa.akademik.dashboard') }}"
                class="inline-block bg-gray-600 hover:bg-gray-700 text-white px-6 py-2 rounded-xl transition">
-                Kembali ke Dashboard
+                Kembali
             </a>
         </div>
 
